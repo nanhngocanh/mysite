@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 16:32+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\catalog\models.py:11
+msgid "Enter a book genre (e.g.Science Fiction)"
+msgstr ""
+
+#: .\catalog\templates\base_generics.html:25
+msgid "Home"
+msgstr ""
+
+#: .\catalog\templates\base_generics.html:26
+msgid "All books"
+msgstr ""
+
+#: .\catalog\templates\base_generics.html:27
+msgid "All authors"
+msgstr ""
+
+#: .\catalog\templates\index.html:5
+msgid "Local Library Home"
+msgstr ""
+
+#: .\catalog\templates\index.html:7
+msgid "Welcome to LocalLibrary, a website developed by"
+msgstr ""
+
+#: .\catalog\templates\index.html:8
+msgid "Mozilla Developer Network"
+msgstr ""
+
+#: .\catalog\templates\index.html:10
+msgid "Dynamic content"
+msgstr ""
+
+#: .\catalog\templates\index.html:11
+msgid "The library has the following record counts:"
+msgstr ""
+
+#: .\catalog\templates\index.html:13
+msgid "Books:"
+msgstr ""
+
+#: .\catalog\templates\index.html:14
+msgid "Copies:"
+msgstr ""
+
+#: .\catalog\templates\index.html:15
+msgid "Copies available:"
+msgstr ""
+
+#: .\catalog\templates\index.html:16
+msgid "Authors:"
+msgstr ""
