@@ -15,4 +15,7 @@
     <li><strong>{% trans "Copies available:" %}</strong> {{ num_instances_available }}</li>
     <li><strong>{% trans "Authors:" %}</strong> {{ num_authors }}</li>
   </ul>
+  <p>
+    {% trans "You have visited this page " %}{{ num_visits }}{% trans " time" %}{{ num_visits|pluralize }}.
+  </p>
 {% endblock %}
