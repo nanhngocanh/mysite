@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-25 15:32+0700\n"
+"POT-Creation-Date: 2023-08-28 14:42+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: .\catalog\models.py:11
+#: .\catalog\models.py:13
 msgid "Enter a book genre (e.g.Science Fiction)"
 msgstr ""
 
@@ -34,15 +34,27 @@ msgstr ""
 msgid "All authors"
 msgstr ""
 
-#: .\catalog\templates\base_generics.html:40
+#: .\catalog\templates\base_generics.html:30
+msgid "My Borrowed"
+msgstr ""
+
+#: .\catalog\templates\base_generics.html:31
+msgid "Logout"
+msgstr ""
+
+#: .\catalog\templates\base_generics.html:33
+msgid "Login"
+msgstr ""
+
+#: .\catalog\templates\base_generics.html:47
 msgid "Page"
 msgstr ""
 
-#: .\catalog\templates\base_generics.html:40
+#: .\catalog\templates\base_generics.html:47
 msgid "of"
 msgstr ""
 
-#: .\catalog\templates\base_generics.html:43
+#: .\catalog\templates\base_generics.html:50
 msgid "next"
 msgstr ""
 
@@ -84,6 +96,14 @@ msgstr ""
 
 #: .\catalog\templates\catalog\book_list.html:15
 msgid "There are no books in the library."
+msgstr ""
+
+#: .\catalog\templates\catalog\bookinstance_list_borrowed_user.html:5
+msgid "Borrowed books"
+msgstr ""
+
+#: .\catalog\templates\catalog\bookinstance_list_borrowed_user.html:18
+msgid "There are no books borrowed."
 msgstr ""
 
 #: .\catalog\templates\index.html:5
@@ -128,4 +148,58 @@ msgstr ""
 
 #: .\catalog\templates\index.html:19
 msgid " time"
+msgstr ""
+
+#: .\templates\registration\logged_out.html:5
+msgid "Logged out!"
+msgstr ""
+
+#: .\templates\registration\logged_out.html:6
+msgid "Click here to login again."
+msgstr ""
+
+#: .\templates\registration\password_reset_complete.html:6
+msgid "The password has been changed!"
+msgstr ""
+
+#: .\templates\registration\password_reset_complete.html:7
+msgid "log in again?"
+msgstr ""
+
+#: .\templates\registration\password_reset_confirm.html:7
+msgid "Please enter (and confirm) your new password."
+msgstr ""
+
+#: .\templates\registration\password_reset_confirm.html:23
+msgid "Change my password"
+msgstr ""
+
+#: .\templates\registration\password_reset_confirm.html:28
+msgid ""
+"\n"
+"      <h1>Password reset failed</h1>\n"
+"      <p>The password reset link was invalid, possibly because it has "
+"already been used. Please request a new password reset.</p>\n"
+"    "
+msgstr ""
+
+#: .\templates\registration\password_reset_done.html:6
+msgid ""
+"\n"
+"    <p>We've emailed you instructions for setting your password.\n"
+"      If they haven't arrived in a few minutes, check your spam folder.</p>\n"
+"  "
+msgstr ""
+
+#: .\templates\registration\password_reset_email.html:3
+#, python-format
+msgid ""
+"\n"
+"  Someone asked for password reset for email %(email)s. Follow the link "
+"below:\n"
+"  %(protocol)s://%(domain)s\n"
+msgstr ""
+
+#: .\templates\registration\password_reset_form.html:11
+msgid "Reset password"
 msgstr ""
