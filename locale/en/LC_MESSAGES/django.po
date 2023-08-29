@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-28 14:42+0700\n"
+"POT-Creation-Date: 2023-08-29 10:25+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\catalog\forms.py:11
+msgid "Enter a date between now and 4 weeks (default 3)."
+msgstr ""
+
+#: .\catalog\forms.py:19
+msgid "Invalid date - renewal in past"
+msgstr ""
+
+#: .\catalog\forms.py:23
+msgid "Invalid date - renewal more than 4 weeks ahead"
+msgstr ""
 
 #: .\catalog\models.py:13
 msgid "Enter a book genre (e.g.Science Fiction)"
@@ -58,12 +70,48 @@ msgstr ""
 msgid "next"
 msgstr ""
 
-#: .\catalog\templates\catalog\book_detail.html:4
-msgid "Title:"
+#: .\catalog\templates\catalog\author_confirm_delete.html:6
+msgid "Delete Author"
 msgstr ""
 
+#: .\catalog\templates\catalog\author_confirm_delete.html:8
+msgid "Are you sure you want to delete the author"
+msgstr ""
+
+#: .\catalog\templates\catalog\author_detail.html:7
 #: .\catalog\templates\catalog\book_detail.html:6
 msgid "Author:"
+msgstr ""
+
+#: .\catalog\templates\catalog\author_detail.html:11
+msgid "Books"
+msgstr ""
+
+#: .\catalog\templates\catalog\author_list.html:5
+msgid "Author List"
+msgstr ""
+
+#: .\catalog\templates\catalog\author_list.html:18
+msgid "There are no authors available."
+msgstr ""
+
+#: .\catalog\templates\catalog\book_confirm_delete.html:6
+msgid "Delete Book"
+msgstr ""
+
+#: .\catalog\templates\catalog\book_confirm_delete.html:8
+#, python-format
+msgid ""
+"\n"
+"<p>Are you sure you want to delete the book: %(book)s?</p>\n"
+msgstr ""
+
+#: .\catalog\templates\catalog\book_confirm_delete.html:14
+msgid "Yes, delete."
+msgstr ""
+
+#: .\catalog\templates\catalog\book_detail.html:4
+msgid "Title:"
 msgstr ""
 
 #: .\catalog\templates\catalog\book_detail.html:8
@@ -90,12 +138,28 @@ msgstr ""
 msgid "Imprint:"
 msgstr ""
 
+#: .\catalog\templates\catalog\book_form.html:10
+msgid "Submit"
+msgstr ""
+
 #: .\catalog\templates\catalog\book_list.html:4
 msgid "Book List"
 msgstr ""
 
 #: .\catalog\templates\catalog\book_list.html:15
 msgid "There are no books in the library."
+msgstr ""
+
+#: .\catalog\templates\catalog\book_renew_librarian.html:5
+msgid "Renew"
+msgstr ""
+
+#: .\catalog\templates\catalog\book_renew_librarian.html:6
+msgid "Borrower"
+msgstr ""
+
+#: .\catalog\templates\catalog\book_renew_librarian.html:7
+msgid "Due date"
 msgstr ""
 
 #: .\catalog\templates\catalog\bookinstance_list_borrowed_user.html:5
@@ -156,6 +220,32 @@ msgstr ""
 
 #: .\templates\registration\logged_out.html:6
 msgid "Click here to login again."
+msgstr ""
+
+#: .\templates\registration\login.html:7
+msgid ""
+"\n"
+"      <p>Your username and password didn't match. Please try again.</p>\n"
+"    "
+msgstr ""
+
+#: .\templates\registration\login.html:14
+msgid ""
+"\n"
+"        <p>Your account doesn't have access to this page. To proceed,\n"
+"        please login with an account that has access.</p>\n"
+"      "
+msgstr ""
+
+#: .\templates\registration\login.html:19
+msgid ""
+"\n"
+"        <p>Please login to see this page.</p>\n"
+"      "
+msgstr ""
+
+#: .\templates\registration\login.html:42
+msgid "Lost password?"
 msgstr ""
 
 #: .\templates\registration\password_reset_complete.html:6
