@@ -1,0 +1,23 @@
+{% extends "base_generics.html" %}
+{% load i18n %}
+{% load static %}
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+
+{% block content %}
+  <h1>{% translate 'Author:' %} {{ author }} </h1>
+  <p>{{author.date_of_birth}} - {% if author.date_of_death %}{{author.date_of_death}}{% endif %}</p>
+
+  <div class="sub-infor">
+    <h4>{% translate 'Books' %}</h4>
+    <div>
+    {% for book in author.book_set.all %}
+      <div>
+        <a href="{% url 'book-detail' book.pk %}"><strong>{{book}}</strong></a>
+        ({{book.bookinstance_set.all.count}})
+      </div>
+      <div>{{book.summary}}</div>
+    {% endfor %}
+    </div>
+  </div>
+  {% endblock %}
+  
